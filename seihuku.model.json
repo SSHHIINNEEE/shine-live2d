@@ -4,8 +4,7 @@
 	"textures":[
 		"seihuku.2048/texture_00.png",
 		"seihuku.2048/texture_01.png",
-		"seihuku.2048/texture_02.png",
-		"seihuku.2048/texture_03.png"
+		"seihuku.2048/texture_02.png"
 	],
 	"expressions":[
 		{"name":"seihuku_1","file":"expression/seihuku_1.exp.json"},
@@ -69,6 +68,14 @@
 		{"name":"54","file":"expression/54.exp.json"},
 		{"name":"55","file":"expression/55.exp.json"},
 		{"name":"56","file":"expression/56.exp.json"},
+		{"name":"57","file":"expression/57.exp.json"},
+		{"name":"58","file":"expression/58.exp.json"},
+		{"name":"59","file":"expression/59.exp.json"},
+		{"name":"60","file":"expression/60.exp.json"},
+		{"name":"61","file":"expression/61.exp.json"},
+		{"name":"62","file":"expression/62.exp.json"},
+		{"name":"63","file":"expression/63.exp.json"},
+		{"name":"64","file":"expression/64.exp.json"},
 		{"name":"AccGlass1_1","file":"expression/AccGlass1_1.exp.json"},
 		{"name":"AccGlass1_2","file":"expression/AccGlass1_2.exp.json"},
 		{"name":"AccGlass1_3","file":"expression/AccGlass1_3.exp.json"},
@@ -102,46 +109,25 @@
 		{"name":"Fox_on","file":"expression/Fox_on.exp.json"},
 		{"name":"HairLong","file":"expression/HairLong.exp.json"},
 		{"name":"HairPony","file":"expression/HairPony.exp.json"},
-		{"name":"HairSemilong","file":"expression/HairSemilong.exp.json"},
-		{"name":"HairSemipony","file":"expression/HairSemipony.exp.json"},
-		{"name":"HairSemitwin","file":"expression/HairSemitwin.exp.json"},
+		{"name":"HairSemi","file":"expression/HairSemi.exp.json"},
+		{"name":"HairSemiPony","file":"expression/HairSemiPony.exp.json"},
+		{"name":"HairSemiTwin","file":"expression/HairSemiTwin.exp.json"},
 		{"name":"HairTwin","file":"expression/HairTwin.exp.json"}
 	],
 	"motions":{
 		"":[
+			{"file":"motion/00.mtn"},
 			{"file":"motion/angry.mtn"},
-			{"file":"motion/angry_2.mtn"},
-			{"file":"motion/main_EX_1.mtn"},
-			{"file":"motion/main_EX_1_02.mtn"},
-			{"file":"motion/main_EX_2.mtn"},
-			{"file":"motion/main_EX_3.mtn"},
-			{"file":"motion/main_EX_4.mtn"},
-			{"file":"motion/main_EX_4_2.mtn"},
-			{"file":"motion/sleep.mtn"},
-			{"file":"motion/sleep_2.mtn"},
-			{"file":"motion/sleep_3.mtn"},
-			{"file":"motion/sleep_4.mtn"},
-			{"file":"motion/touch_1.mtn"},
-			{"file":"motion/touch_1_2.mtn"},
-			{"file":"motion/touch_2.mtn"},
-			{"file":"motion/touch_2_2.mtn"},
-			{"file":"motion/touch_3.mtn"},
-			{"file":"motion/touch_3_2.mtn"},
-			{"file":"motion/touch_4.mtn"},
-			{"file":"motion/touch_5.mtn"},
-			{"file":"motion/touch_5_2.mtn"}
-		],
-		"idle":[
-			{"file":"motion/idle_1.mtn"},
-			{"file":"motion/idle_1_2.mtn"},
-			{"file":"motion/idle_2.mtn"},
-			{"file":"motion/idle_2_2.mtn"},
-			{"file":"motion/idle_3.mtn"},
-			{"file":"motion/idle_3_2.mtn"},
-			{"file":"motion/idle_3_3.mtn"},
-			{"file":"motion/idle_4.mtn"},
-			{"file":"motion/idle_4_2.mtn"},
-			{"file":"motion/idle_4_3.mtn"}
+			{"file":"motion/angry02.mtn"},
+			{"file":"motion/happy.mtn"},
+			{"file":"motion/heat.mtn"},
+			{"file":"motion/sad.mtn"},
+			{"file":"motion/stay.mtn"},
+			{"file":"motion/stay02.mtn"},
+			{"file":"motion/stay2.mtn"},
+			{"file":"motion/stay2_02.mtn"},
+			{"file":"motion/stop.mtn"},
+			{"file":"motion/tremble.mtn"}
 		]
 	}
 }
